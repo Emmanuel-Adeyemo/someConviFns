@@ -11,7 +11,7 @@ coancenstry = function(geno_dta, type = 'G05N'){
   # marker names in columns
   
   # for G05, the minor allele freq is set as 0.5 across all markers
-  # this is because it is prone to error based on the num of markers and inds
+  # this is because calculation is prone to error based on the num of markers and inds
   # GOF calc minor allele freq as observed freq in the population
     
   
