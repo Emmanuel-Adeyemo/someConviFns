@@ -1,5 +1,5 @@
 
-get_coa = function(dta){
+get_matching = function(dta){
   
   k = list()
   
@@ -15,7 +15,7 @@ get_coa = function(dta){
   out['Parent_1'] = rownames(dta)[1]
   out['Parent_2'] = rownames(dta)[2]
   
-  out['coa'] = round(Reduce('+', k) / (ncol(dta)),3)
+  out['matching_coeff'] = round(Reduce('+', k) / (ncol(dta)),3)
   
   out_call = do.call('cbind', out) %>% as.data.frame()
   
