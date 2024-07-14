@@ -48,7 +48,8 @@ coancenstry_G05N = function(geno_dta){
   
 }
 
+# tmp data is coded 0, 1, 2
 
 tmp_minus1 = tmp - 1
 
-out = coancensty_G05N(tmp_minus1)
+out = coancenstry_G05N(tmp_minus1)
