@@ -69,7 +69,7 @@ coancenstry = function(geno_dta, type = 'G05N'){
 }
 
 
-tmp_minus1 = tmp - 1
+# tmp_minus1 = tmp - 1
 
-outG05 = coancenstry(tmp_minus1)
-outGOF = coancenstry(tmp_minus1, type = 'GOFN')
+# outG05 = coancenstry(tmp_minus1)
+# outGOF = coancenstry(tmp_minus1, type = 'GOFN')
