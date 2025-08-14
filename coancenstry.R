@@ -2,9 +2,9 @@
 
 coancenstry = function(geno_dta, type = 'G05N'){
   
-  #'@param geno_dta - genotype dataframe of n individuals (rows) by m markers (columns)
-  #'@param type - how realized relationship is calculated. 'G05N' (Forni et al., 2011) is default. Other option is 'GOFN' (VanRaden, 2008).
-  #'@return dataframe with pairwise coa
+  # @param geno_dta - genotype dataframe of n individuals (rows) by m markers (columns)
+  # @param type - how realized relationship is calculated. 'G05N' (Forni et al., 2011) is default. Other option is 'GOFN' (VanRaden, 2008).
+  # @return dataframe with pairwise coa
   
   # make sure marker data is -1, 0, 1
   # ge_id in rownames
